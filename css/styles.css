@@ -103,10 +103,10 @@ body {
   color: var(--AccentColor);
 }
 .accent {
-    color: var(--AccentColor);
+  color: var(--AccentColor);
 }
 .section {
-    margin: 0;
+  margin: 0;
   padding-top: 94px;
   padding-bottom: 94px;
   }
@@ -119,27 +119,33 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
 }
 .container-text {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /*Header section*/
 .header {
   border-bottom: 1px solid var(--HeaderBorderColor);
 }
+.header-container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .header .link {
-    padding: 20px 1px;
+  padding: 20px 1px;
 }
 .header-nav-item,
 .header-contact-item {
-    /*margin-top: 32px;
-    margin-bottom: 32px;*/
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -151,7 +157,7 @@ body {
   color: var(--MainColor);
   width: 294px;
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 .header-contacts {
   display: flex;
@@ -261,7 +267,7 @@ body {
 
 /* footer */
 .footer {
-    padding: 60px 0px;
+  padding: 60px 0px;
   color: var(--FirstMainColor);
   background-color: var(--MainBackgroundColor);
 }
@@ -269,11 +275,11 @@ body {
   color: var(--footer-logo-TextColor);
 }
 .footer-text {
-    margin-top: 20px;
+  margin-top: 20px;
   color: var(--FirstMainColor);
 }
 .footer-contact {
-    margin-top: 9px;
+  margin-top: 9px;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -281,8 +287,8 @@ body {
 
 /*gallery*/
 .filter-buttons {
-    padding-bottom: 34px;
-    text-align: center;
+  padding-bottom: 34px;
+  text-align: center;
 }
 .gallery {
 }
@@ -293,7 +299,7 @@ body {
   background-color: var(--SecondBackgroundColor);
 }
 .gallery-item:nth-child(-n+3) {
-    margin-top: 0;
+  margin-top: 0;
 }
 .gallery-item-header {
   font-size: 18px;
