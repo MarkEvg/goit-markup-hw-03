@@ -129,7 +129,7 @@ body {
   padding-right: 15px;
 }
 
-/*Header section*/
+/*#region Header section*/
 .header {
   border-bottom: 1px solid var(--HeaderBorderColor);
 }
@@ -138,7 +138,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
   align-items: center;
 }
 .header .link {
@@ -154,12 +154,14 @@ body {
   color: var(--header-logo-TextColor);
 }
 .header-nav-list {
-  color: var(--MainColor);
   width: 294px;
+  margin-left: 93px;
+  color: var(--MainColor);
   display: flex;
   justify-content: space-between;
 }
 .header-contacts {
+    margin-left: auto;
   display: flex;
   color: var(--ContactColor);
 }
@@ -169,8 +171,9 @@ body {
 .header-contact-item:last-child {
   margin-right: 0;
 }
+/*#endregion*/
 
-/* hero section */
+/*#region hero section */
 .hero {
   color: var(--FirstMainColor);
   background-color: var(--MainBackgroundColor);
@@ -187,8 +190,9 @@ body {
   color: var(--FirstMainColor);
   background-color: var(--button-BackgroundColor);
 }
+/*#endregion*/
 
-/* features*/
+/*#region features */
 .features-list-item {
   width: 270px;
 }
@@ -207,8 +211,9 @@ body {
   letter-spacing: 0.03;
   color: var(--DescriptionColor);
 }
+/*#endregion*/
 
-/* about */
+/*#region about */
 .about-header {
   font-weight: 700;
   font-size: 36px;
@@ -221,8 +226,9 @@ body {
 .about-item {
   /*margin-right: 30px;*/
 }
+/*#endregion*/
 
-/* team */
+/*#region team */
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -264,8 +270,9 @@ body {
   text-align: center;
   color: var(--DescriptionColor);
 }
+/*#endregion*/
 
-/* footer */
+/*#region footer */
 .footer {
   padding: 60px 0px;
   color: var(--FirstMainColor);
@@ -282,10 +289,11 @@ body {
   margin-top: 9px;
   color: rgba(255, 255, 255, 0.6);
 }
+/*#endregion*/
 
-/* Portfolio */
+/*#region Portfolio */
 
-/*gallery*/
+/*#region gallery */
 .filter-buttons {
   padding-bottom: 34px;
   text-align: center;
@@ -305,7 +313,7 @@ body {
   font-size: 18px;
   line-height: 2; /* identical to box height, or 200% */
   letter-spacing: 0.06em;
-  color: gvar(--GalleryItemColor);
+  color: var(--GalleryItemColor);
 }
 .gallery-item-text {
 }
@@ -314,3 +322,5 @@ body {
   line-height: 1.88; /* identical to box height, or 188% */
   color: var(--DescriptionColor);
 }
+/*#endregion*/
+/*#endregion*/
