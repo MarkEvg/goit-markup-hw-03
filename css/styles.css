@@ -134,7 +134,9 @@ body {
   color: var(--MainColor);
   }
 .header-nav-item,
-.header-contact-item {
+.header-contact-item,
+.header-nav-accent,
+.header-contact-accent {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
