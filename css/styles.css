@@ -51,10 +51,10 @@ body {
   margin: -1px;
 }
 .nostyle {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-style: normal;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-style: normal;
 }
 .link {
   color: inherit;
@@ -91,9 +91,9 @@ body {
   background-color: var(--button-BackgroundColor);
 }
 .pict {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 .logo {
   font-family: var(--SecondFont);
