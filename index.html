@@ -18,46 +18,52 @@
       <a class="link logo" href="./index.html" lang="en">Web<span class="header-logo-text">Studio</span></a>
       <!-- Main navigation -->
       <nav>
-        <ul class="nostyle"> <!-- нав-панель -->
-          <li><a class="link header-nav-accent" href="">Студія</a></li>
+        <ul class="nostyle header-nav-list">
+          <!-- нав-панель -->
+          <li><a class="link header-nav-accent" href="./index.html">Студія</a></li>
           <li><a class="link header-nav-item" href="./portfolio.html">Портфоліо</a></li>
           <li><a class="link header-nav-item" href="">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="nostyle"> <!-- Посилання на контакти -->
-        <li><a class="link header-contact-item" href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a></li>
-        <li><a class="link header-contact-item" href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="header-contacts nostyle">
+        <!-- Посилання на контакти -->
+        <li class="header-contact-item">
+          <a class="link" href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a>
+        </li>
+        <li class="header-contact-item">
+          <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <main>
-      <section class="hero"> <!-- done -->
+      <section class="section hero"> <!-- done -->
         <div class="hero__main-text">
           <h1 class="hero__main-text">Ефективні рішення<br>для вашого бізнесу</h1>
           <button type="button" class="button hero-button">Замовити послугу</button>
         </div>
       </section>
-      <section class="features">
+      <section class="section features">
         <h2 class="visually-hidden">Чому ми?</h2>
         <ul class="nostyle features-list container">
-          <li>
-            <h3 class="features-item">Увага до деталей</h3>
-            <p class="features-item-description">Ідейні міркування, а також початок повсякденної работи по формуванню позиції.</p>
+          <li class="features-list-item">
+            <h3 class="features-list-item-header">Увага до деталей</h3>
+            <p class="features-list-item-description">Ідейні міркування, а також початок повсякденної работи по формуванню позиції.</p>
           </li>
-          <li>
-            <h3 class="features-item">Пунктуальність</h3>
-            <p class="features-item-description">Завдання організації, особливо ж рамки та місце навчання кадрів тягне за собою.</p>
+          <li class="features-list-item">
+            <h3 class="features-list-item-header">Пунктуальність</h3>
+            <p class="features-list-item-description">Завдання організації, особливо ж рамки та місце навчання кадрів тягне за собою.</p>
           </li>
-          <li>
-            <h3 class="features-item">Планування</h3>
-            <p class="features-item-description">Консультація з широким активом також в в значній мірі обумовлює.</p>
+          <li class="features-list-item">
+            <h3 class="features-list-item-header">Планування</h3>
+            <p class="features-list-item-description">Консультація з широким активом також в в значній мірі обумовлює.</p>
           </li>
-          <li>
-            <h3 class="features-item">Сучасні технології</h3>
-            <p class="features-item-description">Значущість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+          <li class="features-list-item">
+            <h3 class="features-list-item-header">Сучасні технології</h3>
+            <p class="features-list-item-description">Значущість цих проблем настільки очевидна, що реалізація планових завдань.</p>
           </li>
         </ul>
       </section>
-      <section class="about"> <!-- done -->
+      <section class="section about"> <!-- done -->
         <h2 class="about-header">Чим ми займаємося</h2>
         <ul class="nostyle about-list container">
           <li class="about-item"><img src="./images/box1.jpg" alt="планшет з безддротовою клавіатурою" width="370" height="294"></li>
@@ -65,7 +71,7 @@
           <li class="about-item"><img src="./images/box3.jpg" alt="Процес вибору кольору" width="370" height="294"></li>
         </ul>
       </section>
-      <section class="team">
+      <section class="section team">
         <h2 class="team-header">Наша команда</h2>
         <ul class="nostyle team-list container"> <!-- Картки співробітників -->
           <li class="team-list-item">
@@ -91,14 +97,19 @@
         </ul>
       </section>
     </main>
-    <footer> <!-- done -->
-      <div class="footer">
+    <footer class="footer">
+      <!-- done -->
+      <div class="container-text">
         <address class="nostyle">
-        <a class="link logo" href="./index.html" lang="en">Web<span class="footer-logo-text">Studio</span></a>
+          <a class="link logo" href="./index.html" lang="en">Web<span class="footer-logo-text">Studio</span></a>
           <ul class="footer-text nostyle">
             <li>г. Київ, пр-т Лесі Українки, 26</li>
-            <li><a class="link footer-contacts" lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="link footer-contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li>
+              <a class="link footer-contacts" lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+              <a class="link footer-contacts" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
           </ul>
         </address>
       </div>
