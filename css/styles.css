@@ -90,15 +90,23 @@ body {
   color: var(--ButtonMainColor);
   background-color: var(--button-BackgroundColor);
 }
+.pict {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .logo {
-
   font-family: var(--SecondFont);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--AccentColor);
 }
+.accent {
+    color: var(--AccentColor);
+}
 .section {
+    margin: 0;
   padding-top: 94px;
   padding-bottom: 94px;
   }
@@ -122,31 +130,30 @@ body {
 }
 
 /*Header section*/
-.header-nav-list {
-  width: 294px;
-  display: flex;
-  justify-content: space-between;
-}
 .header {
   border-bottom: 1px solid var(--HeaderBorderColor);
 }
-.header-nav-list {
-  color: var(--MainColor);
-  }
+.header .link {
+    padding: 20px 1px;
+}
 .header-nav-item,
-.header-contact-item,
-.header-nav-accent,
-.header-contact-accent {
+.header-contact-item {
+    /*margin-top: 32px;
+    margin-bottom: 32px;*/
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.header-nav-accent,
-.header-contact-accent {
-  color: var(--AccentColor);
+.header-logo-text {
+  color: var(--header-logo-TextColor);
+}
+.header-nav-list {
+  color: var(--MainColor);
+  width: 294px;
+  display: flex;
+  justify-content: space-between;  
 }
 .header-contacts {
-  padding-right: 15px;
   display: flex;
   color: var(--ContactColor);
 }
@@ -154,10 +161,7 @@ body {
   margin-right: 50px;
 }
 .header-contact-item:last-child {
-  margin-right: 15px;
-}
-.header-logo-text {
-  color: var(--header-logo-TextColor);
+  margin-right: 0;
 }
 
 /* hero section */
@@ -257,8 +261,7 @@ body {
 
 /* footer */
 .footer {
-  /*padding-top: 60px;
-  padding-bottom: 60px;*/
+    padding: 60px 0px;
   color: var(--FirstMainColor);
   background-color: var(--MainBackgroundColor);
 }
@@ -266,26 +269,31 @@ body {
   color: var(--footer-logo-TextColor);
 }
 .footer-text {
-    margin: 0;
+    margin-top: 20px;
   color: var(--FirstMainColor);
 }
-.footer-contacts {
+.footer-contact {
+    margin-top: 9px;
   color: rgba(255, 255, 255, 0.6);
 }
 
 /* Portfolio */
 
 /*gallery*/
+.filter-buttons {
+    padding-bottom: 34px;
+    text-align: center;
+}
 .gallery {
 }
 .gallery-item {
   text-align: left;
-  margin-bottom: 30px;
+  margin-top: 30px;
   border: 1px solid var(--BorderElement);
   background-color: var(--SecondBackgroundColor);
 }
-.gallery-item:nth-last-child(-n+3) {
-    margin-bottom: 0;
+.gallery-item:nth-child(-n+3) {
+    margin-top: 0;
 }
 .gallery-item-header {
   font-size: 18px;
